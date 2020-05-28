@@ -14,6 +14,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <slf4j.version>1.6.6</slf4j.version>
         <log4j.version>1.2.12</log4j.version>
+        <spring.version>5.0.2.RELEASE</spring.version>
     </properties>
 
     <dependencies>
@@ -52,6 +53,7 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
+            <scope>compile</scope>
         </dependency>
 
         <!--添加json坐标-->
@@ -88,6 +90,7 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <version>5.0.4.RELEASE</version>
+            <!--<version>${spring.version}</version>-->
         </dependency>
 
 
